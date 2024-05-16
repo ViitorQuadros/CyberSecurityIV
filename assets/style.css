@@ -184,6 +184,12 @@ body{
 
 /*fim Main parte de baixo*/
 
+/**/
+.gradual-class{
+    height: 700px;
+    background: linear-gradient(to top, rgb(6, 37, 49),black );
+      
+}
 
 
 
