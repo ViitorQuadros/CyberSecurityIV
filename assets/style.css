@@ -78,7 +78,6 @@ body{
 /*LADO ESQUERDO DIV MAIN*/
 .define_tamanho_lado_esquerdo{
     width: 40%;
-   
     display: flex;
 }
 
@@ -93,8 +92,6 @@ body{
     width: 300px;
     border-radius: 50%;
 }
-
-
 /*lado direito*/
 
 .define_tamanho_lado_direito{
@@ -104,7 +101,7 @@ body{
 
 .define_conteudo_lado_direito{
     margin: 100px 0 0 15px;
-    align-items: center;
+    
     width: 100%;
 }
 
@@ -115,6 +112,9 @@ body{
     font-weight: 400;
     font-style: normal;
     padding-bottom: 10px;
+    text-align: center;
+    
+    
 }
 
 .define_conteudo_lado_direito span{
@@ -123,7 +123,69 @@ body{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
+    line-height: 1.6;
 }
+
+/*Main parte de baixo*/
+
+.define_tamanho_lado_direito_foto{
+    width: 40%;
+    display: flex;
+}
+.define_div_imagem_lado_direito{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.define_div_imagem_lado_direito img{
+    height: 350px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+.define_tamanho_lado_esquerdo_escrito{
+    width: 60%;
+    display: flex;
+    
+}
+
+.define_conteudo_lado_esquerdo_escrito{
+    margin: 120px 0 0 15px;
+    align-items: center;
+    width: 100%;
+    
+}
+
+
+.define_conteudo_lado_esquerdo_escrito h1{
+    color: white;
+    font-size: 21px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+.define_conteudo_lado_esquerdo_escrito span{
+    color: white;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+
+
+/*fim Main parte de baixo*/
+
+
+
 
 /*FOOTER*/
 
