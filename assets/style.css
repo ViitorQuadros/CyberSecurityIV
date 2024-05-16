@@ -184,14 +184,25 @@ body{
 
 /*fim Main parte de baixo*/
 
-/**/
+/*Começo da sessão gradual*/
 .gradual-class{
-    height: 700px;
+    height: 600px;
     background: linear-gradient(to top, rgb(6, 37, 49),black );
-      
+    display: flex;
+    
+    
 }
 
-
+.center_gradual_class{
+    height: 100px;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 150px;
+    border: solid 1px white;
+    border:solid 1px rgb(12, 40, 51)
+}
 
 /*FOOTER*/
 
