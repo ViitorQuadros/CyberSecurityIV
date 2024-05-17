@@ -4,24 +4,16 @@
 /*Lato*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-*{
-    font-family: 'Lato',sans-serif;
-}
 
 body{
     font-family: "Lato", sans-serif;
 }
 
 .imagem-fundo-header{ 
-    height: 635px;
-    background: url(IMG/CyberFallout2.jpg);
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: center;
-    
+    height: 575px;
+    background: url(IMG/base-espacial.png);
+    background-repeat: no-repeat;
 }
-
-
 .div-topicos-header{
     text-align: center;
     justify-content: space-between;
