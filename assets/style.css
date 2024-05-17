@@ -23,6 +23,7 @@ body{
     display: inline;
     margin: 0 0 0 15px;
     color: white;
+    font-size: 14px;
 }
 
 
@@ -35,12 +36,14 @@ body{
 }
 
 .espaçamento-titulo h1{
-    font-size: 50px;
+    font-size: 30px;
+    width: 600px;
+
 }
 
 .espaçamento-titulo span{
     color: green;
-    font-size: 50px;
+    font-size: 26px;
 }
 
 /**main**/
@@ -93,8 +96,7 @@ body{
 
 .define_conteudo_lado_direito{
     margin: 100px 0 0 15px;
-    
-    width: 100%;
+    width: 80%;
 }
 
 .define_conteudo_lado_direito h1{
@@ -120,7 +122,7 @@ body{
 }
 
 /*Main parte de baixo*/
-
+/*
 .define_tamanho_lado_direito_foto{
     width: 40%;
     display: flex;
@@ -171,7 +173,7 @@ body{
     font-weight: 400;
     line-height: 1.6;
 }
-
+*/
 
 
 /*fim Main parte de baixo*/
@@ -192,8 +194,29 @@ body{
     justify-content: center;
     text-align: center;
     padding: 150px;
-    border: solid 1px white;
+    border-radius: 20px;
     border:solid 1px rgb(12, 40, 51)
+}
+/*Fim da sessão gradual*/
+
+.container{
+    height: 400px;
+    background-color: rgb(6, 37, 49);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.padding-container{
+    padding: 100px;
+    height: 80px;
+    border: solid green 1px;
+    border-radius: 20px;
+}
+
+
+.nuvens{
+    height: 300px;
+    background-image: url(IMG/nuvens.png);
 }
 
 /*FOOTER*/
