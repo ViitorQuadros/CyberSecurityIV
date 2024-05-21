@@ -12,7 +12,9 @@ body{
 
 .imagem-fundo-header{ 
     height: 575px;
+    width: 100%;
     background: url(IMG/base-espacial.png);
+    background-size: cover;
     background-repeat: no-repeat;
     
 }
@@ -38,14 +40,15 @@ body{
 }
 
 .espaçamento-titulo h1{
-    font-size: 30px;
+    font-size: 50px;
     width: 600px;
+
 
 }
 
 .espaçamento-titulo span{
     color: green;
-    font-size: 26px;
+    font-size: 48px;
 }
 
 /**main**/
@@ -311,11 +314,24 @@ body{
 /*FOOTER*/
 
 .define_tamanho_total_footer{
-    height: 70px;
+    height: 100px;
     background-color: rgb(0, 14, 29);
-    
     text-align: center;
+    display: flex;
 }
 .define_tamanho_total_footer h1, p{
     color: white;
 }
+
+.div-separa-participantes{
+    width: 30%;
+    display: inline;
+    height: 100%;
+    font-size: 15px;
+}
+
+.div-separa-links{
+width: 70%;
+font-size: 15px;
+}
+
