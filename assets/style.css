@@ -187,7 +187,7 @@ body{
 
 **/
 .container-header-large{
-    height: 200px;
+    height: 100px;
     font-size: 80px;
     margin: 4px 0 0 40px;
 }
@@ -203,7 +203,7 @@ body{
 .what-whe-do-main-container{
     height: 400px;
     display: flex;
-    margin: 50px;
+    margin: 90px;
 }
 
 .what-whe-do-container{
@@ -212,19 +212,47 @@ body{
 }
 
 .what-whe-do-container-esquerda{
-    width: 50%;
-    background-color: aqua;
+    width: 60%;
+    
 }
 
 .what-whe-do-container-esquerda h1{
-    font-size: 30px;
+    font-size: 80px;
+    width: 600px;
+    font-weight: 700;
 }
 
+.what-whe-do-container-esquerda span{
+    font-size: 30px;
+    
+}
 
 .what-whe-do-container-direita{
-    width: 50%;
-    background-color: rgb(19, 26, 26); 
+    width: 40%;
+    
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.what-whe-do-container-direita-conteudo{
+    width: 400px;
+    height: 300px;
+    padding: 30px 80px 0 30px;
+    font-size: 18px;
+    
+}
+.what-whe-do-container-direita-conteudo h2{
+    font-size: 20px;
+    padding: 10px;
+    width: 350px;
+}
+
+.what-whe-do-container-direita-conteudo span{
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
 }
 
 /*FOOTER*/
