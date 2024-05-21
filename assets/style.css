@@ -200,6 +200,19 @@ body{
     text-align: end;
 }
 
+.container-span-header-large span{
+    
+    width: 400px;
+    height: 400px;
+    color: #7a7a7f;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.035rem;
+    line-height: 28px;
+    margin: 0 0 10px;
+    right: 50px;
+}
+
 .what-whe-do-main-container{
     height: 400px;
     display: flex;
@@ -220,10 +233,21 @@ body{
     font-size: 80px;
     width: 600px;
     font-weight: 700;
+    
+}
+
+.gradient-line {
+    background: linear-gradient(to right, #00778b 0%, #4b37c9 15%, #d844a2 30%, #f0764d 45%, #ffe800 100%);
+    display: block;
+    height: 10px;
+    margin: 10px 0 20px;
+    max-width: 306px;
+    width: 100%;
 }
 
 .what-whe-do-container-esquerda span{
     font-size: 30px;
+    
     
 }
 
@@ -244,15 +268,22 @@ body{
     
 }
 .what-whe-do-container-direita-conteudo h2{
-    font-size: 20px;
-    padding: 10px;
-    width: 350px;
+    font-size: clamp(1.125rem, 0.9511rem + 0.3623vw, 1.25rem);
+    font-weight: 900;
+    line-height: 1.75;
+    text-transform: uppercase;
 }
 
 .what-whe-do-container-direita-conteudo span{
     overflow: hidden;
     width: 400px;
     height: 400px;
+    color: #7a7a7f;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.035rem;
+    line-height: 28px;
+    margin: 0 0 10px;
 }
 
 /*FOOTER*/
