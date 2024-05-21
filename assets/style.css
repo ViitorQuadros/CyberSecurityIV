@@ -42,7 +42,7 @@ body{
 .espaçamento-titulo h1{
     font-size: 50px;
     width: 600px;
-
+    
 
 }
 
@@ -65,7 +65,11 @@ body{
 .titulo{
     text-align: center;
     width: 100%;
-    font-size: 30px;
+    font-size: 50px;
+    font-family: 'Freeman', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
    
 }
 /*Define tamanho total da main div*/
@@ -106,7 +110,7 @@ body{
 
 .define_conteudo_lado_direito h1{
     color: white;
-    font-size: 21px;
+    font-size: 25px;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -118,7 +122,7 @@ body{
 
 .define_conteudo_lado_direito span{
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -208,7 +212,7 @@ body{
     width: 400px;
     height: 400px;
     color: #7a7a7f;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
     letter-spacing: -0.035rem;
     line-height: 28px;
@@ -329,6 +333,13 @@ body{
     height: 100%;
     font-size: 15px;
 }
+
+.div-separa-links a{
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
 
 .div-separa-links{
 width: 70%;
