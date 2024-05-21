@@ -200,8 +200,31 @@ body{
     text-align: end;
 }
 
-.container-header-large{
-    
+.what-whe-do-main-container{
+    height: 400px;
+    display: flex;
+    margin: 50px;
+}
+
+.what-whe-do-container{
+    display: flex;
+    width: 100%;
+}
+
+.what-whe-do-container-esquerda{
+    width: 50%;
+    background-color: aqua;
+}
+
+.what-whe-do-container-esquerda h1{
+    font-size: 30px;
+}
+
+
+.what-whe-do-container-direita{
+    width: 50%;
+    background-color: rgb(19, 26, 26); 
+
 }
 
 /*FOOTER*/
