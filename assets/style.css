@@ -214,9 +214,11 @@ body{
 }
 
 .what-whe-do-main-container{
-    height: 400px;
+    height: 500px;
     display: flex;
     margin: 90px;
+    margin-top: 0px;
+    
 }
 
 .what-whe-do-container{
@@ -226,7 +228,6 @@ body{
 
 .what-whe-do-container-esquerda{
     width: 60%;
-    
 }
 
 .what-whe-do-container-esquerda h1{
@@ -245,14 +246,19 @@ body{
     width: 100%;
 }
 
-.what-whe-do-container-esquerda span{
+.what-whe-do-container-esquerda p{
     font-size: 30px;
-    
+    color: #7a7a7f;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.035rem;
+    line-height: 28px;
+    width: 500px;
     
 }
 
 .what-whe-do-container-direita{
-    width: 40%;
+    width: 30%;
     
     font-weight: 700;
     display: flex;
